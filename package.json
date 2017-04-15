@@ -4,22 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --watch --port 8080",
-    "webpack": "webpack --progress"
+    "start": "webpack-dev-server --watch --port 8080",
+    "webpack": "webpack -p --progress"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
-    "@types/react": "^15.0.14",
+    "@types/react": "^15.0.21",
     "@types/react-dom": "^0.14.23",
-    "awesome-typescript-loader": "^3.0.8",
+    "awesome-typescript-loader": "^3.1.2",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
     "source-map-loader": "^0.1.6",
-    "typescript": "^2.2.1",
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.1"
+    "typescript": "^2.2.2",
+    "uglify-js": "git://github.com/mishoo/UglifyJS2.git#harmony",
+    "webpack": "^2.2.3",
+    "webpack-dev-server": "^2.4.2"
   }
 }
